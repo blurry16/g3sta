@@ -3,11 +3,6 @@ from sys import argv
 from g3sta import G3STA_PATH
 
 
-def readdata():
-    with open(G3STA_PATH, "r", encoding="UTF-8") as g3sta_file:
-        return g3sta_file.read().split("\n")
-
-
 if __name__ == "__main__":
     argv = [i.lower() for i in argv[1:]]
 

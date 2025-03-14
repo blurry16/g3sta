@@ -3,9 +3,12 @@ from sys import argv
 from g3sta import G3STA_PATH
 
 
+<<<<<<< HEAD:genreadme.py
 readme = """g3sta - g3rm4n pasta, цитаты легенды"""
 
 
+=======
+>>>>>>> 6b6d06c1556889d5674540ad002bcf084efc2a55:count.py
 if __name__ == "__main__":
     argv = [i.lower() for i in argv[1:]]
 
